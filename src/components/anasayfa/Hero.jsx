@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="rounded-xl bg-white/10 backdrop-blur-sm px-4 py-3">
       */}
         <Image
-          src="/images/image.png"
+          src="/images/herologo.png"
           alt="Pelox Logo"
           width={220}
           height={64}
