@@ -34,7 +34,7 @@ export default function AboutPreview() {
         {/* Sağ: Görsel */}
         <div className="flex justify-center">
           <Image
-            src="/images/about.jpg" // /public/images içine görsel koy
+            src="/images/about.webp" // /public/images içine görsel koy
             alt="Pelox Hakkında"
             width={500}
             height={350}

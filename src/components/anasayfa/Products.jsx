@@ -15,7 +15,7 @@ export default function ProductsPreview() {
           {/* Ürün 1 */}
           <div className="rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
             <Image
-              src="/images/mobilya.jpg"
+              src="/images/mobilya.webp"
               alt="Mobilya Tutkalı"
               width={400}
               height={250}
@@ -40,7 +40,7 @@ export default function ProductsPreview() {
           {/* Ürün 2 */}
           <div className="rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
             <Image
-              src="/images/pas.jpg"
+              src="/images/pas.webp"
               alt="Pas Sökücü"
               width={400}
               height={250}

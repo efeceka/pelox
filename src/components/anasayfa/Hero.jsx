@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Arka plan görseli */}
       <div className="relative h-[100vh] w-full overflow-hidden">
         <Image
-          src="/images/hero.jpg" // /public/images içine hero görselini koy
+          src="/images/hero.webp" // /public/images içine hero görselini koy
           alt="Pelox hero background"
           fill
           priority
@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-10 flex items-center justify-center">
   <div className="mx-auto max-w-[960px] px-6 text-center">
     {/* Logo bloğu: drop-shadow + opsiyonel cam panel */}
-    <div className="mx-auto mb-6 inline-flex items-center justify-center">
+    <div className="mx-auto mb-10 inline-flex items-center justify-center">
       {/* İsteğe bağlı cam panel için bu wrapper'ı aç:
       <div className="rounded-xl bg-white/10 backdrop-blur-sm px-4 py-3">
       */}
@@ -39,16 +39,17 @@ export default function Hero() {
 
           {/* Slogan */}
           <h1 className="mx-auto max-w-[820px] text-white/95 text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight">
-            Endüstriyel Temizlik ve Yüzey Çözümleri
-          </h1>
+          Paslanmaz Çelikte Yenilikçi Kimya
+</h1>
 
-          {/* Alt açıklama */}
-          <p className="mx-auto mt-3 max-w-[760px] text-white/80 text-sm sm:text-base">
-            Pas ve kireç sökücü kimyasallarda güvenilir, çevreye duyarlı ve yüksek performanslı çözümler.
-          </p>
+<p className="mx-auto mt-4 max-w-[760px] text-white/80 text-sm sm:text-base">
+  Kurulduğumuz günden bu yana müşteri memnuniyetini ilke edinerek, 
+  paslanmaz çelik ve endüstriyel kimyasallar alanında yenilikçi, 
+  kaliteli ve sürdürülebilir çözümler sunuyoruz.
+</p>
 
           {/* CTA */}
-          <div className="mt-6">
+          <div className="mt-10">
             <Link
               href="/yapim-asamasinda"
               className="inline-flex items-center justify-center rounded-lg px-5 py-3 text-base sm:text-lg font-medium

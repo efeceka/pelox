@@ -16,7 +16,7 @@ export default function Stats({
       {/* Arkaplan görsel */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/stats.jpg')" }}
+        style={{ backgroundImage: "url('/images/stats.webp')" }}
       />
       {/* Koyu overlay okunabilirlik için */}
       <div className="absolute inset-0 bg-black/50" />
