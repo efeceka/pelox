@@ -22,7 +22,7 @@ export default function AboutPreview() {
             </p>
           <div className="mt-6">
             <Link
-              href="/yapim-asamasinda"
+              href="/hakkimizda"
               className="inline-flex items-center justify-center rounded-lg px-6 py-3
                          bg-[#0056A3] text-white font-medium hover:bg-[#2BA84A] transition-colors"
             >

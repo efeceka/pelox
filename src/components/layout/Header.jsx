@@ -132,7 +132,7 @@ export default function Header() {
           </div>
 
           <Link
-            href="/yapim-asamasinda"
+            href="/iletisim"
             className="text-[#0056A3] hover:text-[#2BA84A] transition-colors"
           >
             İletişim

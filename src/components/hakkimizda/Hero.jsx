@@ -6,7 +6,7 @@ export default function AboutHero() {
     <section className="relative w-full h-[75vh] flex items-center justify-center">
       {/* Arka plan görseli */}
       <Image
-        src="/images/hakkimizda.webp"
+        src="/images/hakkimizda2.webp"
         alt="Hakkımızda Arka Plan"
         fill
         priority
