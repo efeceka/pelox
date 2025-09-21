@@ -23,7 +23,7 @@ export default function ProductsPreview() {
             />
             <div className="p-5 text-left">
               <h3 className="text-lg font-semibold text-[#0056A3] mb-2">
-                Mobilya Tutkalı
+              PELOX Mobilya Tutkalı Solventi
               </h3>
               <p className="text-gray-600 text-sm mb-4">
               Ahşap ve mobilya uygulamalarında yüksek yapışma gücü sağlayan, dayanıklı ve uzun ömürlü kullanım için geliştirilmiş tutkal.

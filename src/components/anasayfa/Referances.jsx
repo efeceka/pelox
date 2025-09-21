@@ -49,14 +49,14 @@ export default function References() {
             {logos.map((logo, idx) => (
               <div
                 key={idx}
-                className="flex-shrink-0 aspect-[4/3] max-w-[200px] flex items-center justify-center rounded-lg bg-gray-50 border p-4"
+                className="flex-shrink-0 w-48 h-28 flex items-center justify-center rounded-lg bg-gray-50 border p-4"
               >
                 <Image
                   src={logo}
                   alt={`Referans ${idx + 1}`}
-                  width={180}
-                  height={135}
-                  className="object-contain w-full h-full"
+                  width={160}
+                  height={80}
+                  className="object-contain max-w-full max-h-full"
                 />
               </div>
             ))}
